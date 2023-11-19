@@ -71,20 +71,20 @@ public class btvn_buoi3 {
     }
 
     // 4 - dung do-while de nhap cho den khi n > 10
-    static void nhapN() {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        while(n < 10) {
-            System.out.println("nhap lai");
-            break;
-        }
-    }
+//    static void nhapN() {
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//        while(n < 10) {
+//            System.out.println("nhap lai");
+//            break;
+//        }
+//    }
     public static void main(String[] args) {
 //        dungFor();
 //        dungWhile();
 //        dungDoWhile();
 //        nhapMang();
 //        noiMang();
-        nhapN();
+//        nhapN();
     }
 }
